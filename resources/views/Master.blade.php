@@ -211,7 +211,82 @@
     </div>
     <!-- mobile-menu-end -->
     @yield("content")
-
+    <div class="footer-area">
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-widget footer-logo-widget">
+                            <div class="footer-logo">
+                                <img src="img/home1/logo.png" alt="">
+                            </div>
+                            <div class="footer-social">
+                                <span>Follow Us:</span>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-widget footer-news-widget">
+                            <h4 class="widget-title">Latest news</h4>
+                            <ul>
+                                <li><a href="#">Aenean tristique justo et nibh molestie, non porttitor eros suscipit</a></li>
+                                <li><a href="#">Phasellus dapibus dictum augue, ut ultricies</a></li>
+                                <li><a href="#">Phasellus dapibus dictum augue, ut ultricies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-widget footer-flicker-widget">
+                            <h4 class="widget-title">Latest news</h4>
+                            <ul>
+                                <li><a href="img/home1/flicker1.jpg" data-fancybox="images"><img src="img/home1/flicker1.jpg" alt="" /></a></li>
+                                <li><a href="img/home1/flicker2.jpg" data-fancybox="images"><img src="img/home1/flicker2.jpg" alt="" /></a></li>
+                                <li><a href="img/home1/flicker3.jpg" data-fancybox="images"><img src="img/home1/flicker3.jpg" alt="" /></a></li>
+                                <li><a href="img/home1/flicker4.jpg" data-fancybox="images"><img src="img/home1/flicker4.jpg" alt="" /></a></li>
+                                <li><a href="img/home1/flicker5.jpg" data-fancybox="images"><img src="img/home1/flicker5.jpg" alt="" /></a></li>
+                                <li><a href="img/home1/flicker6.jpg" data-fancybox="images"><img src="img/home1/flicker6.jpg" alt="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-widget footer-contact-widget">
+                            <h4 class="widget-title">Contact us</h4>
+                            <div class="contact-widget-box">
+                                <span class="cwb-title">Address :</span>
+                                <span class="cwb-text">8500 Lorem Street, Chicago, IL, 55030</span>
+                            </div>
+                            <div class="contact-widget-box">
+                                <span class="cwb-title">Call Us :</span>
+                                <span class="cwb-text">(123) 456-78-90</span>
+                            </div>
+                            <div class="contact-widget-box">
+                                <span class="cwb-title">Email:</span>
+                                <span class="cwb-text">sales@yoursite.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="footer-bottom">
+                            <p>Copyright ThemeInnovation @2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="js/jquery-3.2.0.min.js"></script>
@@ -227,6 +302,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/theme.js"></script>
     @yield("script")
+
 </body>
 
 </html>
